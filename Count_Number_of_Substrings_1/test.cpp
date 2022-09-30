@@ -6,6 +6,7 @@ int main(){
     int N = a.size();
     int cnt = 0;
     int ans = 0;
+    
     for(int i=0;i<N;++i){
         if (a[i] == '1') ans += cnt++;
     }

@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.tasks.runTask",
+        "args": "BuildAndRunCurrentFile",
+        "when": "editorTextFocus"
+    }
+]

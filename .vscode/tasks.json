@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "clang++ build active file",
+            "label": "g++ build active file",
             "command": "/usr/local/bin/g++-9",
             "args": [
                 "-std=c++17",
@@ -26,7 +26,7 @@
         },
         {
             "type": "shell",
-            "label": "Build and Run the current file",
+            "label": "BuildAndRunCurrentFile",
             "command": "${fileDirname}/a; rm ${fileDirname}/a",
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -36,7 +36,7 @@
                 "isDefault": true
             },
             "dependsOn": [
-                "clang++ build active file"
+                "g++ build active file"
             ],
             "problemMatcher": [],
             "presentation": {
