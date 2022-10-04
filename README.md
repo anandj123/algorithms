@@ -1,4 +1,4 @@
-# Algorith Notes:
+# Algorith Notes
 
 ## Some Useful algorithms
 
