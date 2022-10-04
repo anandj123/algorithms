@@ -13,7 +13,9 @@ $$
 But here we will see how we can calculate this while iterating over the elements. This can be useful in may combinatorial problems.
 
 {% hint style="info" %}
-Problem statement: [https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/](https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/)​
+Problem statement:&#x20;
+
+[https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/](https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/)​
 {% endhint %}
 
 ```
