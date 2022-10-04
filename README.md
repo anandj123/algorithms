@@ -42,10 +42,8 @@ return ans;
 
 ### Notes
 
-* The first thing to note is that if we just count number of ones we could use $nCr$ (where n = number of ones and r = 2) we will get the same answer.
-* Here we are doing interactive calculation.
-* Observe that when we see first '1' our count = 0, so ans = 0 and then increment count = 1.
-* when we see the second '1' we have count = 1, so we know we had one '1' before and we are currently holding a '1'
-* so we can form one substring.
-* for the next '1' we should have 2 '1' in the list and then 3rd '1' in the hand.
+* Observe that when we see the first `1` our `count = 0`, so `ans = 0` and then increment `count = 1`
+* When we see the second `1` we have `count = 1`, so we know we had one `1` before and we are currently holding a `1`
+* So we can form one substring.
+* For the next `1` we should have 2 `1` in the list and then $$3_{rd}$$ `1` in the hand.
 * This iterative approach of counting pairs is very powerful for other complex problems.
