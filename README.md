@@ -1,10 +1,10 @@
-# Some common algorithms techniques.
+# Some useful algorithms techniques
 
 ## Count number of substrings starting and ending with 1
 
 ### Motivation
 
-If we want to count number of pairs of some problem space. We could also use the formula.&#x20;
+If we want to count number of pairs of some problem space. We could also use the combination formula.&#x20;
 
 $$
 ^nC_r = {{n * (n-1)} \over 2}
@@ -13,10 +13,8 @@ $$
 But here we will see how we can calculate this while iterating over the elements. This can be useful in may combinatorial problems.
 
 {% hint style="info" %}
-[https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/](https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/)
+Problem statement: [https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/](https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/)​
 {% endhint %}
-
-​
 
 ```
 Example:
@@ -41,12 +39,6 @@ return ans;
 ```
 
 ### Notes
-
-{% hint style="info" %}
-How to count $$^n C _r$$ iteratively?
-{% endhint %}
-
-
 
 * The first thing to note is that if we just count number of ones we could use $nCr$ (where n = number of ones and r = 2) we will get the same answer.
 * Here we are doing interactive calculation.
