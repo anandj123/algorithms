@@ -28,6 +28,12 @@ return ans;
 
 ### Notes
 
+{% hint style="info" %}
+How to count $$nCr$$​ iteratively?
+{% endhint %}
+
+
+
 * The first thing to note is that if we just count number of ones we could use $nCr$ (where n = number of ones and r = 2) we will get the same answer.
 * Here we are doing interactive calculation.
 * Observe that when we see first '1' our count = 0, so ans = 0 and then increment count = 1.
