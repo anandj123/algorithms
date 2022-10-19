@@ -3,7 +3,7 @@ using namespace std;
 
 void sort(vector<int>& a, int L, int R){
     int N = a.size();
-    sort(a,)
+    // Todo write logic for sort and merge
 }
 
 int main(){
