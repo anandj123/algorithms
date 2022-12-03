@@ -29,7 +29,7 @@ Output: 1
 Explanation: one substring “1001”
 ```
 
-```cpp
+```
 int cnt = 0;
 int ans = 0;
 for(int i=0;i<N;++i){

@@ -6,3 +6,4 @@
 * [Counting pairs iteratively](<README (1).md>)
 * [Leetcode discuss pages](leetcode-discuss-pages.md)
 * [Algorithm cheat sheets](algorithm-cheat-sheets.md)
+* [Identify patterns](identify-patterns.md)
